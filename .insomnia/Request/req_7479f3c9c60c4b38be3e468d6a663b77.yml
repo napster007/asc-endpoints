@@ -1,0 +1,28 @@
+_id: req_7479f3c9c60c4b38be3e468d6a663b77
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670350076387
+created: 1668540521377
+url: "{{ _.host }}{{ _.base_path }}form/stampmaterial/"
+name: stampmaterial
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":153
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668087050430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_fc8c6c9aa60d46fc95195b0aaee01724
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1662983726150
+created: 1662316432165
+url: http://localhost:3000/posts
+name: createPost
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: >-
+    {
+    		
+    		"title": "Sample tit",
+    		"description": "Sample Desc",
+    		"image_url": "https://www.devteam.space/wp-content/uploads/2022/05/nodejs.jpg"
+
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_816dabf95cb44c1294384f04f1aed1c4
+authentication: {}
+metaSortKey: -1662316432165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

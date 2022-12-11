@@ -1,0 +1,26 @@
+_id: req_09edec3b75714e3baaf73247635ef395
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1666343112399
+created: 1666335064587
+url: https://ticketing.intramuros.gov.ph/api/cmis_ticketing/mobile/session/login
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: text/plain
+  text: uNUVAd+nb6k7qWS2fMyKjdJpe4gCdbzmngThQcyaDCSipla5YMGxgu4IUmg2o7rq2g1+/74LxCyBi8S4ZEmhyX3xQHdRxhBRI9fI73hGdq8QpuXDVohXT3kQNEOBka71
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_6fdbdefe7ba24b259c0c6dbff129fdf9
+authentication: {}
+metaSortKey: -1666335064587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

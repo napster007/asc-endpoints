@@ -1,0 +1,18 @@
+_id: env_d3874da1f91b491ebd521826fab91ace
+type: Environment
+parentId: env_15fd333f4b3d997dcf3e3111705539e9dbafd2e5
+modified: 1668922233639
+created: 1668086521640
+name: ASC_LOCAL
+data:
+  scheme: http
+  base_path: /api/v1/
+  host: localhost:5001
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1668086521640

@@ -1,0 +1,30 @@
+_id: req_f33f3d0759634341ba7f6d8050f090c6
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670756512345
+created: 1670204239541
+url: "{{ _.host }}{{ _.base_path }}generate/report/peragency2"
+name: reportsPerAgency
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"paymentStatus": "PAID",
+    	"dateFrom":"2022-12-01",
+    	"dateTo":"2022-12-30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670204239541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

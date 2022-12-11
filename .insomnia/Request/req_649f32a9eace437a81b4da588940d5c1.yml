@@ -1,0 +1,25 @@
+_id: req_649f32a9eace437a81b4da588940d5c1
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1668727801730
+created: 1666878427309
+url: https://cmis.intramuros.gov.ph/api/cmis_leasing/api/v1/billsetup/getTenantBillHistoryList
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"offset":1,"limit":10,"id":7}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666878427309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

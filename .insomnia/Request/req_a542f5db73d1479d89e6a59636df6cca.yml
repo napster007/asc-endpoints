@@ -1,0 +1,28 @@
+_id: req_a542f5db73d1479d89e6a59636df6cca
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670341856290
+created: 1669560553852
+url: "{{ _.host }}{{ _.base_path }}s2/clearance/"
+name: s2Clearance
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 153
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669494677306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

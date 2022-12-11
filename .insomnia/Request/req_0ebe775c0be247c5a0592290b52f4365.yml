@@ -1,0 +1,41 @@
+_id: req_0ebe775c0be247c5a0592290b52f4365
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1668540533389
+created: 1666343120638
+url: https://cmis.intramuros.gov.ph/api/cmis_leasing/api/v1/billsetup/generate
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"tenantId":6,
+    	"billingPeriodFrom":"November 2, 2022",
+    	"billingPeriodTo":"November 30 2022",
+    	"dueDate":"December 10, 2022",
+    	"charges":[
+    		{"paymentScheduleId":"1","amount":"11"},	         
+    		{"paymentScheduleId":"2","amount":"12"},
+    		{"paymentScheduleId":"3","amount":"13"},
+    		{"paymentScheduleId":"4","amount":"14"},
+    		{"paymentScheduleId":"5","amount":"15"},
+    		{"paymentScheduleId":"6","amount":"16"},
+    		{"paymentScheduleId":"7","amount":"17"},
+    		{"paymentScheduleId":"8","amount":"18"}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666343120638
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

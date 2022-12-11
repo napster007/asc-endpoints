@@ -1,0 +1,28 @@
+_id: req_304986578b6b4697a6b010304eb3502c
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1668922202985
+created: 1668727806216
+url: http://18.140.158.179:5001/api/v1/form/s1decisionform/
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668727806216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

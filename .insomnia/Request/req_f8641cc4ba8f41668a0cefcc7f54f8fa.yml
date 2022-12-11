@@ -1,0 +1,38 @@
+_id: req_f8641cc4ba8f41668a0cefcc7f54f8fa
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670612400738
+created: 1670147236838
+url: "{{ _.host }}{{ _.base_path }}generate/receipt"
+name: generateReceipt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+            "or_number":"SAMPLE-22344",
+            "company_name":"MCU Compnay",
+            "company_tin":"12345-585",
+            "company_address":"MANILA PHILIPPINES",
+            "business_style":"SAMPLE STYLE",
+            "isWithHoldingTax":"100.00",
+            "control_number":"10",
+            "total_amount":"500.00",
+            "medium_type":"OOH",
+            "reference_list":"REFERENCELISET",
+            "remarks":"SAMPLE REMARKS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668086778811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

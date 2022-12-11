@@ -1,0 +1,18 @@
+_id: env_d4d5c8d714b5411e959dd5dca7829884
+type: Environment
+parentId: env_15fd333f4b3d997dcf3e3111705539e9dbafd2e5
+modified: 1670593409054
+created: 1668922108149
+name: ASC_UAT
+data:
+  scheme: http
+  base_path: api/v1/
+  host: 18.140.158.179:5001/
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1668922108149

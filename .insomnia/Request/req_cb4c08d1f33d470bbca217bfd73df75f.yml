@@ -1,0 +1,29 @@
+_id: req_cb4c08d1f33d470bbca217bfd73df75f
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670655954163
+created: 1668087050380
+url: "{{ _.host }}{{ _.base_path }}form/s1decisionform/"
+name: s1decisionform
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":153
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668087050380
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

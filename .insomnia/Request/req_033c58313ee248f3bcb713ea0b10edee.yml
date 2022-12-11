@@ -1,0 +1,24 @@
+_id: req_033c58313ee248f3bcb713ea0b10edee
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1662984314961
+created: 1662983747979
+url: https://tlcpay.ph/dtipcims/annex5/auditing/auditprogram/view?refID=BPS202107310962&type=plan
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: 2EF14A4E2E6A15FC4162331C5429941BCD8E9CC71B6E927983C0B9CDC2071D96C367EEA77117BABCCA0565A9A1
+metaSortKey: -1662983747979
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

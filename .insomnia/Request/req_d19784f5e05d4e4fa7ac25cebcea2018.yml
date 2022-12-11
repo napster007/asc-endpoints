@@ -1,0 +1,29 @@
+_id: req_d19784f5e05d4e4fa7ac25cebcea2018
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1668540531843
+created: 1666676203689
+url: https://cmis.intramuros.gov.ph/api/cmis_leasing/api/v1/session/prelogin
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "email": "ronald.dogomeo.tlci.email@gmail.com",
+        "password": "WHLDJCZIL25I"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666676203689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

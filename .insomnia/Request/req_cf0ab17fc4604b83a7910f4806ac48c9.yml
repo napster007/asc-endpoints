@@ -1,0 +1,21 @@
+_id: req_cf0ab17fc4604b83a7910f4806ac48c9
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1666340397630
+created: 1666339963500
+url: https://ticketing.intramuros.gov.ph/api/cmis_ticketing/mobile/session/login
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666339963500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

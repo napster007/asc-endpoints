@@ -1,0 +1,28 @@
+_id: req_a3a14893f29f452a99c789e6f33cfa15
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1670341188848
+created: 1669822019831
+url: "{{ _.host }}{{ _.base_path }}form/s1-pending-form/"
+name: s1PendingForm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 86
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669822019831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
