@@ -1,7 +1,7 @@
 _id: req_a542f5db73d1479d89e6a59636df6cca
 type: Request
 parentId: fld_9b8002dce68e4e82a57d52812ee2d726
-modified: 1670341856290
+modified: 1671219942099
 created: 1669560553852
 url: "{{ _.host }}{{ _.base_path }}s2/clearance/"
 name: s2Clearance
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id": 153
+    	"id": 153,
+            "clearanceType":"Saple Clearance"
     }
 parameters: []
 headers:
