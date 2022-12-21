@@ -1,0 +1,31 @@
+_id: req_f23e851c157e41cfbc738a055fa489d6
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1671436256772
+created: 1671373317242
+url: "{{ _.host }}{{ _.base_path }}form/s1-application-rejection/"
+name: s1-application-rejection
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":9,
+    	"remarks":" Sample Remakrs",
+    	"reasons":"Sample Reasons"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671373317242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

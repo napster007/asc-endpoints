@@ -1,0 +1,28 @@
+_id: req_f214671d49c14bbc88e84d8bb48a8770
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1671636160534
+created: 1671225689934
+url: "{{ _.host }}{{ _.base_path }}form/s2-pending-form/"
+name: s2-pending-form
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":164
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671225689934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
