@@ -1,0 +1,26 @@
+_id: req_0599c90aebf449eeb0886fa38c4148dc
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1671819523250
+created: 1671819488679
+url: https://qualityproducts.dti.gov.ph/dtipcims/annex52/inspector/ib/getall/?ibNo=&status=&state=&flag=&active=&page=1&size=10&search=
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b81fe682fef143a88bdd58f12cd0d100
+    name: authorization
+    value: Bearer
+      63AB49198B1562228A352A3A74813A4610997E66E803DBCA08DE8ACCF528F0AD8DF251AFE5DF251726F13E433721D4
+    description: ""
+authentication: {}
+metaSortKey: -1671819488679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

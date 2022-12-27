@@ -1,0 +1,26 @@
+_id: req_bca4ac24238f4e1fbdf60b351b199421
+type: Request
+parentId: wrk_e2002f6921d04bc7823695131b2bed62
+modified: 1671823788642
+created: 1671819808102
+url: https://qualityproducts.dti.gov.ph/dtipcims/annex53/RFT/TestReportsInteg/?status=new&page=1&size=10&order=&search=
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c0bf57a6e43541e58879e590da7c6417
+    name: authorization
+    value: Bearer
+      E6E5783A9BE0CB45356B36D83C56178B0E15148B0E1BFDDED29A1C9AEA7A25855976AA4BA8F3C2FC7FAB9D1B
+    description: ""
+authentication: {}
+metaSortKey: -1671819808102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

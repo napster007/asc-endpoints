@@ -1,7 +1,7 @@
 _id: req_f23e851c157e41cfbc738a055fa489d6
 type: Request
 parentId: fld_9b8002dce68e4e82a57d52812ee2d726
-modified: 1671436256772
+modified: 1672141870834
 created: 1671373317242
 url: "{{ _.host }}{{ _.base_path }}form/s1-application-rejection/"
 name: s1-application-rejection
@@ -12,8 +12,8 @@ body:
   text: |-
     {
     	"id":9,
-    	"remarks":" Sample Remakrs",
-    	"reasons":"Sample Reasons"
+    	"remarks":["Sample111", "sample21"],
+    	"reasons":["Sample Reasons11", "Sample Reasons12", "Sample Reasons31"]
 
     }
 parameters: []
