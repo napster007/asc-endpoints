@@ -1,26 +1,24 @@
-_id: req_a3a14893f29f452a99c789e6f33cfa15
+_id: req_0cc474286ae84890be3f9e7048800093
 type: Request
 parentId: fld_9b8002dce68e4e82a57d52812ee2d726
-modified: 1672663849141
-created: 1669822019831
-url: "{{ _.host }}{{ _.base_path }}form/s1-pending-form/"
-name: s1PendingForm
+modified: 1672671748402
+created: 1672670040962
+url: "{{ _.host }}{{ _.base_path }}sendemail/s1accepted"
+name: emailsender
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id": 165,
-    	"remarks":["Sample111", "sample21"],
-    	"reasons":["Sample Reasons11", "Sample Reasons12", "Sample Reasons31"]
+    	"id":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669822019831
+metaSortKey: -1671382761302
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
