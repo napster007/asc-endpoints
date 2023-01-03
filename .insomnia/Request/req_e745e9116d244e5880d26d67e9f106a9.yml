@@ -1,0 +1,28 @@
+_id: req_e745e9116d244e5880d26d67e9f106a9
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1672709258245
+created: 1672709008545
+url: "{{ _.host }}{{ _.base_path }}sendemail/multipleapplication"
+name: emailsender-multipleapplication
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":212
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671382761252.1953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_339b0f23099e447e9dc5fd14a7581ec1
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1672702738412
+created: 1672702690979
+url: "{{ _.host }}{{ _.base_path }}sendemail/promissoryreminder"
+name: emailsender-promissory-reminder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":195
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671382761252.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

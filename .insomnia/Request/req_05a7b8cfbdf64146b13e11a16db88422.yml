@@ -1,0 +1,28 @@
+_id: req_05a7b8cfbdf64146b13e11a16db88422
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1672700806284
+created: 1672700797341
+url: "{{ _.host }}{{ _.base_path }}sendemail/s2disapproved"
+name: emailsender-s2disaaproved
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":191
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671382761255.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

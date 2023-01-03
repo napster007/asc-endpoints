@@ -1,0 +1,28 @@
+_id: req_779934a0c4344a9f94bccdbb9ef3761b
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1672702109077
+created: 1672701941399
+url: "{{ _.host }}{{ _.base_path }}sendemail/s2accepted"
+name: emailsender-s2accepted
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":177
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671382761253.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

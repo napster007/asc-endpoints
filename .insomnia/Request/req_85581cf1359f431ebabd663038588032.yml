@@ -1,0 +1,28 @@
+_id: req_85581cf1359f431ebabd663038588032
+type: Request
+parentId: fld_9b8002dce68e4e82a57d52812ee2d726
+modified: 1672702368602
+created: 1672702364536
+url: "{{ _.host }}{{ _.base_path }}sendemail/toaaccepted"
+name: emailsender-toaaccepted
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":177
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671382761252.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
