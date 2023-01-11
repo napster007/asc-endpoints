@@ -1,7 +1,7 @@
 _id: req_f8641cc4ba8f41668a0cefcc7f54f8fa
 type: Request
 parentId: fld_9b8002dce68e4e82a57d52812ee2d726
-modified: 1672137172953
+modified: 1673445709605
 created: 1670147236838
 url: "{{ _.host }}{{ _.base_path }}generate/receipt"
 name: generateReceipt
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
     	"or_number": "SAMPLE-22344",
     	"company_name": "MCU Compnay",
@@ -20,7 +20,7 @@ body:
     	"control_number": "10",
     	"total_amount": "500.00",
     	"medium_type": "OOH",
-    	"reference_list": "REFERENCELISET REFERENCELISET REFERENCELISET REFERENCELISET REFERENCELISET REFERENCELISET",
+    	"reference_list": "A00054011023E",
     	"reference_list2": "",
     	"remarks": "SAMPLE REMARKS"
     }

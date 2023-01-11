@@ -1,7 +1,7 @@
 _id: req_2ca326303fe2453bb7c915c7b1a8d18c
 type: Request
 parentId: fld_9b8002dce68e4e82a57d52812ee2d726
-modified: 1672628801279
+modified: 1673453039758
 created: 1670825482978
 url: "{{ _.host }}{{ _.base_path }}generate/report/generatereport"
 name: genereatereport
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"reportType":"reportsPerAgency",
+    	"reportType":"reportsPerApplicant",
     	"dateFrom":"12-01-2022",
-    	"dateTo":"01-03-2023",
+    	"dateTo":"01-10-2023",
     	"paymentType":"ALL",
     	"mediumType":null,
-    	"comp_id":"ALL",
-    	"userId":null
+    	"comp_id":null,
+    	"userId":"ALL"
     	
     }
 parameters: []
